@@ -12,6 +12,6 @@ int main(){
     std::cout <<"Hello, World! Enter an integer number\n";
     int n;
     std::cin >> n;
-    std::cout << fib(n);
+    std::cout << fib(n-1);
     return 0;
 }
